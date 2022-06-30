@@ -12,7 +12,7 @@
 @import url(../blocks/profile/__add-button/profile__add-button.css);
 /* footer block */
 @import url(../blocks/elements/elements.css);
-@import url(../blocks/elements/__image/elements__image.css);
+@import url(../blocks/elements/__image/element__image.css);
 /* footer block */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
