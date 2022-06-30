@@ -1,0 +1,12 @@
+.profile {
+    margin: 0 auto;
+    max-width: 880px;
+    padding-bottom: 50px;
+    color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    border: 1px solid red;
+}
