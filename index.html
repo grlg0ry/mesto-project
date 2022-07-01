@@ -12,17 +12,19 @@
 <body class="page">
     <!-- Beginning of | header block -->
     <header class="header">
-        <img src="./images/mesto_logo.png" alt="Логотип Место" class="header__logo">
+        <img class="header__logo" src="./images/mesto-logo.svg" alt="Логотип Место">
     </header>
     <main class="content">
         <!-- Beginning of | profile block -->
         <section class="profile">
             <img src="./images/avatar_cousteau.jpg" alt="Аватар Кусто" class="profile__image">
             <div class="profile__info">
-                <h1 class="profile__title">Жак-Ив Кусто</h1>
-                <button type="button" class="profile__edit-button"></button>
+                <div class="profile__name-wrapper">
+                    <h1 class="profile__title">Жак-Ив Кусто</h1>
+                    <button type="button" class="profile__edit-button"></button>
+                </div>
+                <p class="profile__subtitle">Исследователь океана</p>
             </div>
-            <p class="profile__subtitle">Исследователь океана</p>
             <button type="button" class="profile__add-button"></button>
         </section>
         <!-- Beginning of | elements block -->
@@ -76,7 +78,7 @@
         <p class="footer__copyright">&copy;&nbsp;2022. Mesto Russia</p>
     </footer>
     <!-- Beginning of | popup block -->
-    <div class="poppup">
+    <div class="popup">
         <div class="popup__container">
             <h2 class="popup__title">Редактировать профиль</h2>
             <form name="profile-edit">

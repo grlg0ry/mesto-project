@@ -1,6 +1,12 @@
 .profile__image {
-    margin: 0;
-    width: 160px;
-    height: 160px;
     border-radius: 50%;
+    height: 120px;
+    margin: 0;
+    width: 120px;
+}
+
+@media screen and (max-wdth: 768px) {
+    .profile__image {
+        justify-self: center;
+    }
 }
