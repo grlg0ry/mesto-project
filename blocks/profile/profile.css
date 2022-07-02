@@ -25,8 +25,12 @@
 
 @media screen and (max-width: 600px) {
     .profile {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         margin: 0 auto;
-        row-gap: 0;
+        /* grid-template-columns: 1fr;
+        margin: 0 auto;
+        row-gap: 0; */
     }
 }

@@ -79,15 +79,16 @@
     </footer>
     <!-- Beginning of | popup block -->
     <div class="popup">
-        <div class="popup__container">
-            <h2 class="popup__title">Редактировать профиль</h2>
-            <form name="profile-edit">
-                <input type="text" name="name" class="popup__text-input">
-                <input type="text" name="description" class="popup__text-input">
-                <button type="submit" class="popup__button-save">Сохранить</button>
-            </form>
-            <button type="button" class="popup__button-close"></button>
-        </div>
+    <!-- please add class "popup_opened" to popup block to activate this form -->
+        <form class="popup__container">
+            <button type="button" class="popup__close-button"></button>
+                <h2 class="popup__title">Редактировать профиль</h2>
+                <fieldset class="popup__profile-info">
+                    <input type="text" class="popup__item popup__item-name" placeholder="Жак-Ив Кусто" required>
+                    <input type="text" class="popup__item popup__item-description" placeholder="Исследователь океана" required>
+                </fieldset>
+            <button type="submit" class="popup__save-button">Сохранить</button>
+        </form>
     </div>
 </body>
 </html>

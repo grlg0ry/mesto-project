@@ -10,5 +10,7 @@
         justify-self: center;
         margin-left: 0;
         padding-top: 26px;
+        padding-left: 0;
+        gap: 0;
     }
 }

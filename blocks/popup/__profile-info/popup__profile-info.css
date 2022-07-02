@@ -1,0 +1,21 @@
+.popup__profile-info {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+    padding-top: 48px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 358px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+    .popup__profile-info {
+        padding-bottom: 46px;
+        padding-top: 74px;
+        width: 238px;
+    }
+}
