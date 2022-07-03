@@ -10,12 +10,12 @@
     margin: 0 auto;
     padding: 0;
     text-align: center;
-    transition: opacity .2 linear;
+    transition: opacity .2s linear;
     width: 358px;
 }
 
 .popup__save-button:hover {
-    opacity: .6;
+    opacity: .8;
 }
 
 @media screen and (max-width: 600px) {

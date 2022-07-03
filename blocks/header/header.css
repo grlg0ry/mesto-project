@@ -1,7 +1,8 @@
 .header {
-    border-bottom: 1px solid #545454;
+    border-bottom: 1px solid rgba(84,84,84, .7);
     margin: 0 auto;
     max-width: 880px;
+    /* min-height: 74px; */
     padding-bottom: 40px;
     padding-top: 45px;
 }
@@ -10,5 +11,6 @@
     .header {
         padding-bottom: 42px;
         padding-top: 28px;
+        padding-bottom: 31.6px;
     }
 }

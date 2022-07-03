@@ -5,8 +5,7 @@
     justify-content: center;
     margin: 0 auto;
     max-width: calc(100% - 400px);
-    padding-bottom: 40px;
-    padding-top: 50px;
+    padding: 51.25px 0 0;
 }
 
 @media screen and (max-width: 900px) {
@@ -20,6 +19,6 @@
     .elements {
         flex-grow: 1;
         grid-template-columns: minmax(min-content, max-content);
-        padding-top: 36px;
+        padding: 36px 19px 0;
     }
 }
