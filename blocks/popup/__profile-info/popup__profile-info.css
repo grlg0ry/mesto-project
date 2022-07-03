@@ -2,20 +2,16 @@
     border: none;
     display: flex;
     flex-direction: column;
-    gap: 30px;
     margin: 0 auto;
-    padding-bottom: 48px;
-    padding-top: 48px;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
     width: 358px;
     box-sizing: border-box;
 }
 
 @media screen and (max-width: 600px) {
     .popup__profile-info {
-        padding-bottom: 45px;
-        padding-top: 75px;
+        /* padding-bottom: 45px;
+        padding-top: 75px; */
         width: 238px;
     }
 }
