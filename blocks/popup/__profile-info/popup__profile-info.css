@@ -5,13 +5,13 @@
     margin: 0 auto;
     padding: 0;
     width: 358px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 @media screen and (max-width: 600px) {
     .popup__profile-info {
-        /* padding-bottom: 45px;
-        padding-top: 75px; */
         width: 238px;
+        padding: 0;
+        /* margin: 0 auto; */
     }
 }
