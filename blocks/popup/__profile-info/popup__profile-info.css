@@ -1,16 +1,9 @@
 .popup__profile-info {
-    display: flex;
-    flex-direction: column;
-    max-width: calc(100% - 72px);
-    border: 1px solid red;
-    margin: 0;
-    border: none;
-    /* padding: 0; */
-    padding: 34px 36px 37px 36px;
+    padding: 48px 36px 37px;
 }
 
 @media screen and (max-width: 600px) {
     .popup__profile-info {
-        max-width: 238px;
+        padding: 75px 22px 25px;
     }
 }
